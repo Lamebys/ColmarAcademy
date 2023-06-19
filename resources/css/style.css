@@ -1,0 +1,370 @@
+html {
+    font-family: "Rubik";
+    color: grey;
+}
+
+/* Header */
+
+header {
+    display: block;
+    height: 24px;
+    margin: 24px;
+    width: 100%;
+}
+
+.logo {
+    display: inline-flex;
+    vertical-align: middle;
+    float: left;
+}
+
+.logo img {
+    height: 32px;
+}
+
+.logo a {
+    color: black;
+}
+
+.logo h1{
+    margin: auto;
+    font-size: 100%;
+    height: 19px;
+}
+
+.option ul {
+    float: right;
+    height: auto;
+    font-size: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.option li {
+    display: inline-block;
+    margin: 0px 16px;
+}
+
+/* Main */
+
+/* Get Started */
+
+.start {
+    display: inline-flex;
+    color: black;
+    background-color: grey;
+}
+
+.start img {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.start .info {
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding: 24px;
+}
+
+.start button {
+    width: 100%;
+    background-color: black;
+    color: rgb(197, 197, 197);
+    font-family: "Rubik";
+}
+
+button:hover {
+    background-color: rgb(44, 44, 44);
+    animation-timing-function: ease-in 200ms;
+}
+
+/* Practice */
+
+.practice {
+    display: inline-flex;
+}
+
+#main {
+    width: 60%;
+    margin: 32px 24px;
+    color: black;
+}
+
+#main img {
+    width: 100%;
+}
+
+#main p {
+    font-family: "Nunito Sans";
+}
+
+#side {
+    flex-direction: column;
+    width: 45%;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+
+#side h1 {
+    margin: 8px 0px;
+}
+
+#list {
+    display: inline-block;
+}
+
+#first {
+    display: inline-flex;
+    flex-wrap: nowrap;
+}
+
+#one {
+    display: inline-block;
+    width: 35%;
+}
+
+#one img {
+    width: 85%;
+    height: auto;
+    padding: 10px;
+    padding-top: 16px;
+}
+
+#two {
+    display: inline-block;
+    width: 65%;
+}
+
+#more {
+    color: rgb(44, 44, 197);
+    text-decoration: underline;
+}
+
+#second {
+    display: inline-flex;
+    flex-wrap: nowrap;
+}
+
+#three {
+    display: inline-block;
+    width: 35%;
+}
+
+#three img {
+    width: 85%;
+    height: auto;
+    padding: 10px;
+    padding-top: 16px;
+}
+
+#four {
+    display: inline-block;
+    width: 65%;
+}
+
+#third {
+    display: inline-flex;
+    flex-wrap: nowrap;
+}
+
+#five {
+    display: inline-block;
+    width: 35%;
+}
+
+#five img {
+    width: 85%;
+    height: auto;
+    padding: 10px;
+    padding-top: 16px;
+}
+
+#six {
+    display: inline-block;
+    width: 65%;
+}
+
+/* Learning */
+
+.learning {
+    background-color: grey;
+    width: 100%;
+}
+
+.learning h1 {
+    position: relative;
+    top: 32px;
+    text-align: center;
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: grey;
+}
+
+.container ul {
+    padding: 0px;
+    display: inline;
+    width: 100%;
+    margin: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container img {
+    width: 100%;
+}
+
+.container li {
+    margin: 16px;
+    display: inline-flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: white;
+    height: 350px;
+}
+
+.container h3 {
+    font-size: 30px;
+    margin: 16px 0px 8px 8px;
+    color: black;
+}
+
+.container p {
+    margin: 8px;
+}
+
+/* Thesis */
+
+.thesis {
+    display: inline;
+}
+
+.media {
+    display: inline-flex;
+}
+
+.thesis h1 {
+    text-align: center;
+    position: relative;
+    top: 32px;
+    color: black;
+}
+
+.video {
+    width: 60%;
+}
+
+.video video {
+    width: 100%;
+    height: auto;
+    margin: 24px;
+    margin-top: 32px;
+}
+
+.video h2 {
+    color: black;
+    font-size: 32px;
+    margin: 8px;
+    margin-left: 24px;
+}
+
+.video p {
+    margin-left: 24px;
+    margin-bottom: 32px;
+}
+
+.other {
+    width: 40%;
+    display: inline-flex;
+}
+
+#otherlist {
+    display: inline-block;
+}
+
+#firstother {
+    display: inline-flex;
+    background-color: grey;
+}
+
+#oneother {
+    width: 35%;
+    display: inline-block;
+    margin: 16px;
+}
+
+#oneother img {
+    width: 100%;
+    height: auto;
+}
+
+#twoother {
+    display: inline-block;
+    width: 65%;
+}
+
+#secondother {
+    display: inline-flex;
+}
+
+#threeother {
+    width: 35%;
+    display: inline-block;
+    margin: 16px;
+}
+
+#threeother img {
+    width: 100%;
+    height: auto;
+}
+
+#fourother {
+    width: 65%;
+    display: inline-block;
+}
+
+.other h3 {
+    font-size: 25px;
+    color: black;
+}
+
+.other p {
+    color: black;
+}
+
+/* Footer */ 
+
+footer {
+    display: block;
+    margin: 16px 24px;
+    height: 50px;
+}
+
+#copyright {
+    height: 67px;
+    display: inline-flex;
+    width: 50%;
+    padding-top: 10px;
+}
+
+#final {
+    width: 50%;
+    float: right;
+    vertical-align: middle;
+}
+
+#final ul{
+    float: right;
+    height: auto;
+}
+
+#final li {
+    display: inline-flex;
+    margin: 8px;
+}
+
